@@ -9,7 +9,7 @@ public class Hero {
     public Hero(int heroHealth, int heroDamage, int heroSuperAbilities) {
         this.heroHealth = heroHealth;
         this.heroDamage = heroDamage;
-        this.heroSuperAbilities = heroSuperAbilities;
+        this.heroSuperAbilities  = heroDamage + 15;
     }
 
 }

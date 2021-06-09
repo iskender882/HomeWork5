@@ -8,7 +8,8 @@ public class Main {
 
         Boss protection= new Boss(1000,50,100);
         protection.BossProtection();
-        System.out.println(protection.getBossProtection());
+        System.out.println( "BossProtection " + " 100 " + "before");
+        System.out.println( "BossProtection " + protection.getBossProtection() + " " + "after");
 
         MagicDoor heroNames = new MagicDoor();
         System.out.println(Arrays.toString(heroNames.magicHeroes()));

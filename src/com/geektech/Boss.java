@@ -9,7 +9,7 @@ public class Boss {
     public Boss(int bossHealth, int bossDamage, int bossProtection) {
         this.bossHealth = bossHealth;
         this.bossDamage = bossDamage;
-        this.bossProtection = bossProtection;
+        this.bossProtection = bossProtection + 100;
     }
 
     public int getBossHealth() {
@@ -40,6 +40,7 @@ public class Boss {
     public  void BossProtection(){
 
         setBossProtection(150);
+
 
 
     }
